@@ -1,8 +1,8 @@
 The Topic Of the Project is | E-Waste-Management |
 
-Web Page Develope Using with | HTML-CSS-JS |
+         Web Page Develope Using with | HTML-CSS-JS |
 
-#Steps of Run a Web page in Your System :
+         #Steps of Run a Web page in Your System :
 
 
 Step 1 : Download a Source Code 
@@ -20,9 +20,9 @@ Final  : We Can See a Output in Your Browser
 (note : This Link Provide a Better Exprience in System View, In the Future Update we can ' Update to Mobile Responsive ' )
 
 
-Some Sample Picture Of Web Page 
+                                    Some Sample Picture Of Web Page 
 
-//First Page Image :
+First Page Image :
 
 ![Screenshot (16)](https://user-images.githubusercontent.com/82278181/147142886-edb41fe4-5bb7-47ea-81aa-272e097a9807.png)
 
@@ -51,11 +51,12 @@ Some Sample Picture Of Web Page
 
 ![Screenshot (22)](https://user-images.githubusercontent.com/82278181/147145051-3e2fcdee-b493-4096-9d71-c335dfd61ea4.png)
 
-//And More.......
+And More.......
 .
 .
 .
 .
 
 #This Link Provide a Better Exprience in System View:- 
+
 Deploye Link : https://elated-goldstine-b7e55e.netlify.app/
