@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/**********Header**********/
+
+
+.top-container {
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .First-header {
+      display:flex ;
+    padding: 10px 16px;
+    background: #555;
+    color: #f1f1f1;
+  }
+  .First-header h2{
+      margin-top: 5px;
+        margin-left: 30px;
+        font-family: serif;
+        font-weight: 800;
+        color: rgb(108, 204, 108);
+  }
+  #header-img0{
+      border-radius: 30px;
+  }
+  .content {
+    padding: 16px;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 102px;
+  }
+  .right-header{
+   margin: 5px 0 0 500px ;
+  }
+
+  .content-0 {
+    width: 360px;
+    height: 40px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, .2);
+    border-radius: 60px;
+    overflow: hidden;
+  }
+  
+  .subscription {
+     
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .subscription .add-email{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 0 20px;
+  }
+  
+  .subscription .submit-email {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: calc(100% - 2px);
+    width: 100px;
+    border: none;
+    border-radius: 60px;
+    outline: none;
+    margin: 1px;
+    padding: 0 20px;
+    cursor: pointer;
+    background: #4ABEBB;
+    color: #FFFFFF;
+    transition: width 0.35s ease-in-out, background 0.35s ease-in-out;
+  }
+  
+  .subscription.done .submit-email {
+    width: calc(100% - 2px);
+    background: #C0E02E;
+  }
+  
+  .subscription .submit-email .before-submit,
+  .subscription .submit-email .after-submit {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 38px;
+    transition: visibility .35s ease-in-out,
+      opacity .35s ease-in-out;
+  }
+  
+  .subscription.done .submit-email .before-submit,
+  .subscription:not(.done) .submit-email .after-submit {
+    visibility: hidden;
+    opacity: 0;
+  }
+  
+  .subscription .submit-email .after-submit {
+    transition-delay: .35s;
+  }
+  
+  .subscription:not(.done) .submit-email .before-submit,
+  .subscription.done .submit-email .after-submit {
+    visibility: visible;
+    opacity: 1;
+  }
+
+
+#First-heading{
+    color: #000;
+    font-weight: 900;
+    padding: 40px 0 20px 0;
+    font-size: 40px;
+    font-family: serif;
+}
+#First-p{
+    width: 90%;
+    padding-bottom: 12px;
+}
+#First-img{
+    height: 500px;
+    width: 1000px;
+}
+p{
+    width: 90%;
+}
+.content p{
+    margin-top: 30px;
+}
+.content1 p{
+    margin-top: 30px;
+}
+.content1 h3{
+    font-family: serif;
+    font-size: 32px;
+    margin-top: 70px;
+}
+#Side-img1{
+    margin-top: 80px;
+}
+
+.content2 h1{
+    font-family: serif;
+    font-size: 32px;
+    margin-top: 70px;
+}
+
+#Side-img2{
+    border-radius: 30px;
+    margin-top: 100px;
+}
+.content3 h1{
+    font-family: serif;
+    font-size: 32px;
+    margin-top: 70px;
+}
+
+#Side-img3{
+    border-radius: 30px;
+    margin-top: 100px;
+}
+
+/****************Latsest Art*******************/
+.article-list {
+    color:#313437;
+    background-color:#fff;
+  }
+  
+  .article-list p {
+    color:#7d8285;
+  }
+  
+  .article-list h2 {
+    font-weight:bold;
+    margin-bottom:40px;
+    padding-top:40px;
+    color:inherit;
+  }
+  
+  @media (max-width:767px) {
+    .article-list h2 {
+      margin-bottom:25px;
+      padding-top:25px;
+      font-size:24px;
+    }
+  }
+  
+  .article-list .intro {
+    font-size:16px;
+    max-width:500px;
+    margin:0 auto;
+  }
+  
+  .article-list .intro p {
+    margin-bottom:0;
+  }
+  
+  .article-list .articles {
+    padding-bottom:40px;
+  }
+  
+  .article-list .item {
+    padding-top:50px;
+    min-height:425px;
+    text-align:center;
+  }
+  
+  .article-list .item .name {
+    font-weight:bold;
+    font-size:16px;
+    margin-top:20px;
+    color:inherit;
+  }
+  
+  .article-list .item .description {
+    font-size:14px;
+    margin-top:15px;
+    margin-bottom:0;
+  }
+  
+  .article-list .item .action {
+    font-size:24px;
+    width:24px;
+    margin:22px auto 0;
+    line-height:1;
+    display:block;
+    color:#4f86c3;
+    opacity:0.85;
+    transition:opacity 0.2s;
+    text-decoration:none;
+  }
+  
+  .article-list .item .action:hover {
+    opacity:1;
+  }
+  .name{
+      font-family: serif;
+      opacity: 0.8;
+      font-weight: 500;
+  }
+
+  .description{
+      opacity: 0.5;
+  }
+  .img-fluid{
+      width: 300px;
+      height: 200px;
+  }

@@ -1,0 +1,381 @@
+/**********Header**********/
+
+
+.top-container {
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .First-header {
+      display:flex ;
+    padding: 10px 16px;
+    background: #555;
+    color: #f1f1f1;
+  }
+  .First-header h2{
+      margin-top: 5px;
+        margin-left: 30px;
+        font-family: serif;
+        font-weight: 800;
+        color: rgb(108, 204, 108);
+  }
+  #header-img0{
+      border-radius: 30px;
+  }
+  .content {
+    padding: 16px;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 102px;
+  }
+  .right-header{
+   margin: 5px 0 0 500px ;
+  }
+
+  .content-0 {
+    width: 360px;
+    height: 40px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, .2);
+    border-radius: 60px;
+    overflow: hidden;
+  }
+  
+  .subscription {
+     
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .subscription .add-email{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 0 20px;
+  }
+  
+  .subscription .submit-email {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: calc(100% - 2px);
+    width: 100px;
+    border: none;
+    border-radius: 60px;
+    outline: none;
+    margin: 1px;
+    padding: 0 20px;
+    cursor: pointer;
+    background: #4ABEBB;
+    color: #FFFFFF;
+    transition: width 0.35s ease-in-out, background 0.35s ease-in-out;
+  }
+  
+  .subscription.done .submit-email {
+    width: calc(100% - 2px);
+    background: #C0E02E;
+  }
+  
+  .subscription .submit-email .before-submit,
+  .subscription .submit-email .after-submit {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 38px;
+    transition: visibility .35s ease-in-out,
+      opacity .35s ease-in-out;
+  }
+  
+  .subscription.done .submit-email .before-submit,
+  .subscription:not(.done) .submit-email .after-submit {
+    visibility: hidden;
+    opacity: 0;
+  }
+  
+  .subscription .submit-email .after-submit {
+    transition-delay: .35s;
+  }
+  
+  .subscription:not(.done) .submit-email .before-submit,
+  .subscription.done .submit-email .after-submit {
+    visibility: visible;
+    opacity: 1;
+  }
+
+/********************Main Content Start********************/
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+
+#first-card{
+  margin-left:90px;
+ 
+}
+#first-card{
+  margin-left: 0!important;
+
+}
+#first-card h3{
+  font-family: serif;
+  font-size:40px;
+  margin:40px 0 20px 10px;
+  text-align: center;
+  font-weight: 900;
+  color: rgb(46, 44, 44);
+}
+#first-card p {
+  opacity: 0.6;
+  text-align: center;
+}
+#log-form{
+  margin-left: 300px !important;
+}
+#first-img{
+  margin-left: 10px;
+  margin-top: 80px;
+  border-radius: 30px;
+ 
+}
+
+body {
+	background: linear-gradient(90deg, #C7C5F4, #776BCC);		
+}
+
+.container {
+	display: flex;
+
+
+	min-height: 100vh;
+}
+
+.screen {	
+  margin-top: 60px;
+  margin-left: 45px;
+  border-radius: 40px;	
+	background:white;		
+	position: relative;	
+	height: 480px;
+	width: 300px;	
+	box-shadow: 0px 0px 24px #5C5696;
+}
+
+.screen__content {
+	z-index: 1;
+	position: relative;	
+	height: 100%;
+}
+
+.screen__background {		
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 0;
+	-webkit-clip-path: inset(0 0 0 0);
+	clip-path: inset(0 0 0 0);	
+}
+
+.screen__background__shape {
+	transform: rotate(45deg);
+	position: absolute;
+}
+#h1-login{
+  font-weight: 600;
+  color: #50ddd8;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+
+.login {
+	width: 300px;
+	padding: 40px;
+	padding-top: 50px;
+}
+
+.login__field {
+	padding: 20px 0px;	
+	position: relative;	
+}
+
+.login__icon {
+	position: absolute;
+	top: 30px;
+	color: #7875B5;
+}
+
+.login__input {
+	border: none;
+	border-bottom: 2px solid #D1D1D4;
+	background: none;
+	padding: 10px;
+	padding-left: 24px;
+	font-weight: 700;
+	width: 75%;
+	transition: .2s;
+}
+
+.login__input:active,
+.login__input:focus,
+.login__input:hover {
+	outline: none;
+	border-bottom-color: #6A679E;
+}
+
+.login__submit {
+	background: #fff;
+	font-size: 14px;
+	margin-top: 30px;
+	padding: 6px 20px;
+	border-radius: 26px;
+	border: 1px solid #D4D3E8;
+	text-transform: uppercase;
+	font-weight: 700;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	color: #4C489D;
+	box-shadow: 0px 2px 2px #5C5696;
+	cursor: pointer;
+	transition: .2s;
+}
+
+.login__submit:active,
+.login__submit:focus,
+.login__submit:hover {
+	border-color: #6A679E;
+	outline: none;
+}
+
+.button__icon {
+	font-size: 24px;
+	margin-left: auto;
+	color: #7875B5;
+}
+
+.social-login {	
+	position: absolute;
+	height: 140px;
+	width: 160px;
+	text-align: center;
+	bottom: 0px;
+	right: 0px;
+	color: #fff;
+}
+
+.social-icons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.social-login__icon {
+	padding: 20px 10px;
+	color: #fff;
+	text-decoration: none;	
+	text-shadow: 0px 0px 8px #7875B5;
+}
+
+.social-login__icon:hover {
+	transform: scale(1.5);	
+}
+
+
+/*****************Contents*****************/
+.contents{
+  margin-top: 60px;
+}
+.contents h1{
+  margin-bottom: 60px;
+  text-align: center;
+  font-family: serif;
+  font-weight: 600
+
+}
+
+.contents p{
+  width: 95%;
+  margin-top: 16px;
+  margin-bottom: 50px;
+}
+.content2{
+  margin-top: 80px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.content2 h1{
+
+  font-family: serif;
+}
+.content2 p{
+  font-family: fantasy;
+ opacity: 0.8;
+  font-size:22px;
+  margin-top: 40px;
+}
+.content2 img{
+  margin-top: 40px;
+  height: 200px;
+  border-radius: 30px;
+}
+.content3{
+  margin-top: 100px;
+}
+.content3 p{
+  font-size: 22px;
+  margin-left: 60px;
+  width: 90%;
+}
+.content3 img{
+  height: 300px;
+}
+.content3 h2{
+  text-align: center;
+  margin-top: 40px;
+}
+#pp{
+  text-align: center;
+  margin-top: 20px;
+}
+.popular{
+  margin: 60px 0 60px 0;
+}
+.popular1{
+  
+  text-align: center;
+  margin: 90px 0 30px 0;
+}
+.popular{
+  color: #fff;
+  text-align: center;
+  background-color: gray;
+  border-radius: 50px;
+}
+.popular h1{
+  font-family: serif;
+  font-size: 56px;
+  font-weight: 700;
+}
+#p1{
+  text-decoration: none;
+  color: #C0E02E;
+}
+.popular p{
+  padding: 20px;
+  font-size: 18px;
+  margin: 10px 0 40px 0;
+}

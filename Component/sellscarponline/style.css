@@ -1,0 +1,295 @@
+/**********Header**********/
+
+
+.top-container {
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .First-header {
+      display:flex ;
+    padding: 10px 16px;
+    background: #555;
+    color: #f1f1f1;
+  }
+  .First-header h2{
+      margin-top: 5px;
+        margin-left: 30px;
+        font-family: serif;
+        font-weight: 800;
+        color: rgb(108, 204, 108);
+  }
+  #header-img0{
+      border-radius: 30px;
+  }
+  .content {
+    padding: 16px;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 102px;
+  }
+  .right-header{
+   margin: 5px 0 0 500px ;
+  }
+
+  .content-0 {
+    width: 360px;
+    height: 40px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, .2);
+    border-radius: 60px;
+    overflow: hidden;
+  }
+  
+  .subscription {
+     
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .subscription .add-email{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 0 20px;
+  }
+  
+  .subscription .submit-email {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: calc(100% - 2px);
+    width: 100px;
+    border: none;
+    border-radius: 60px;
+    outline: none;
+    margin: 1px;
+    padding: 0 20px;
+    cursor: pointer;
+    background: #4ABEBB;
+    color: #FFFFFF;
+    transition: width 0.35s ease-in-out, background 0.35s ease-in-out;
+  }
+  
+  .subscription.done .submit-email {
+    width: calc(100% - 2px);
+    background: #C0E02E;
+  }
+  
+  .subscription .submit-email .before-submit,
+  .subscription .submit-email .after-submit {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 38px;
+    transition: visibility .35s ease-in-out,
+      opacity .35s ease-in-out;
+  }
+  
+  .subscription.done .submit-email .before-submit,
+  .subscription:not(.done) .submit-email .after-submit {
+    visibility: hidden;
+    opacity: 0;
+  }
+  
+  .subscription .submit-email .after-submit {
+    transition-delay: .35s;
+  }
+  
+  .subscription:not(.done) .submit-email .before-submit,
+  .subscription.done .submit-email .after-submit {
+    visibility: visible;
+    opacity: 1;
+  }
+
+/********************Main Content Start********************/
+.heading{
+    margin: 50px 0 50px 0;
+    text-align: center;
+}
+.heading h1{
+    margin: 20px 30px 30px 0;
+    font-weight: 600;
+    font-family: serif;
+}
+#p1{
+    color: rgb(146, 236, 10);
+}
+.heading p{
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 10px;
+    font-size: 17px;
+}
+
+
+
+
+/*********************Card*********************/
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #ebecf0;
+    font-family: "Open Sans", sans-serif;
+    min-height: 100vh;
+}
+body a {
+    text-decoration: none;
+    color: #172b4d;
+}
+body h1 {
+    font-family: "Song Myung", serif;
+}
+/* DEFAULT STYLE */
+:root {
+    font-size: 16px;
+    --card-img-height: 200px;
+}
+.card-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    transition: all 200ms ease-in-out;
+}
+.card {
+    align-self: flex-start;
+    position: relative;
+    width: 325px;
+    min-width: 275px;
+    margin: 1.25rem 0.75rem;
+    background: white;
+    transition: all 300ms ease-in-out;
+}
+.card .card-img {
+    visibility: hidden;
+    width: 100%;
+    height: var(--card-img-height);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.card .card-img-hovered {
+    --card-img-hovered-overlay: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+    transition: all 350ms ease-in-out;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    position: absolute;
+    height: var(--card-img-height);
+    top: 0;
+}
+.card .card-info {
+    position: relative;
+    padding: 0.75rem 1.25rem;
+    transition: all 200ms ease-in-out;
+}
+.card .card-info .card-about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 0;
+    transition: all 200ms ease-in-out;
+}
+.card .card-info .card-about .card-tag {
+    width: 60px;
+    max-width: 100px;
+    padding: 0.2rem 0.5rem;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: #505f79;
+    color: #fff;
+}
+.card .card-info .card-about .card-tag.tag-news {
+    background: #36b37e;
+}
+.card .card-info .card-about .card-tag.tag-deals {
+    background: #ffab00;
+}
+.card .card-info .card-about .card-tag.tag-politics {
+    width: 71px;
+    background: #ff5630;
+}
+.card .card-info .card-title {
+    z-index: 10;
+    font-size: 1.5rem;
+    padding-bottom: 0.75rem;
+    transition: all 350ms ease-in-out;
+}
+.card .card-info .card-creator {
+    padding-bottom: 0.75rem;
+    transition: all 250ms ease-in-out;
+}
+.card:hover {
+    cursor: pointer;
+    box-shadow: 0px 15px 35px rgba(227, 252, 239, 0.1), 0px 5px 15px rgba(0, 0, 0, 0.07);
+    transform: scale(1.025);
+}
+.card:hover .card-img-hovered {
+    --card-img-hovered-overlay: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.65));
+    height: 100%;
+}
+.card:hover .card-about, .card:hover .card-creator {
+    opacity: 0;
+}
+.card:hover .card-info {
+    background-color: transparent;
+}
+.card:hover .card-title {
+    color: #ebecf0;
+    transform: translate(0, 40px);
+}
+.card-1 .card-img, .card-1 .card-img-hovered {
+    background-image: var(--card-img-hovered-overlay), url(./img/scrap1.jpg);
+}
+.card-2 .card-img, .card-2 .card-img-hovered {
+    background-image: var(--card-img-hovered-overlay), url(./img/scrap1.jpg);
+}
+.card-3 .card-img, .card-3 .card-img-hovered {
+    background-image: var(--card-img-hovered-overlay), url(./img/scrap2.png);
+}
+
+.popular1{
+    text-align: center;
+    margin: 90px 0 30px 0;
+}
+.popular{
+    color: #fff;
+    text-align: center;
+    background-color: gray;
+    border-radius: 0px;
+}
+.popular h1{
+    font-family: serif;
+    font-size: 56px;
+    font-weight: 700;
+}
+.popular p{
+    font-size: 18px;
+    margin: 10px 0 40px 0;
+}
