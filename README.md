@@ -1,5 +1,37 @@
-# E-Waste-Management-HTML-CSS-JS
+The Topic Of the Project IS | E-Waste-Management |
+
+Web Page Develope Using with | HTML-CSS-JS |
+
+#Steps of Run a Web page in Yur System :
+
+Step 1 : Download a Source Code 
+
+Step 2 : Install a Code Editor (VS-CODE | Recommended)
+
+Step 3 : Open a Source code on VS Code
+
+         Some Use Full VS Code Extensions(LiveServer | HTML CSS Support)
+
+Step 4 : Open a Live Server _>
+
+Final  : We Can See a Output in Your Browser
+
+(note : This Link Provide a Better Exprience in System View, In the Future Update we can ' Update to Mobile Responsive ' )
+
+
+Some Sample Picture Of Web Page 
+![Screenshot (16)](https://user-images.githubusercontent.com/82278181/147142886-edb41fe4-5bb7-47ea-81aa-272e097a9807.png)
+
+![Screenshot (17)](https://user-images.githubusercontent.com/82278181/147144330-3c83c3fd-2c81-432d-828c-3199b745c53c.png)
+
+![Screenshot (18)](https://user-images.githubusercontent.com/82278181/147144343-c9733321-8572-4fb9-9b2b-374e39c8f5ff.png)
+
+![Screenshot (19)](https://user-images.githubusercontent.com/82278181/147144353-750c35f1-8d69-435a-ac7b-48e11944d551.png)
+
+![Screenshot (20)](https://user-images.githubusercontent.com/82278181/147144360-b184df13-0f65-4b45-aeff-cbb4315ea0b0.png)
 
 
 
+
+#This Link Provide a Better Exprience in System View:- 
 Deploye Link : https://elated-goldstine-b7e55e.netlify.app/
