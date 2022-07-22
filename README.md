@@ -1,9 +1,4 @@
 
-         Web Page Develope Using with | HTML-CSS-JS |
-
-         #Steps of Run a Web page in Your System :
-         
-         
 # The Topic Of the Project is | E-Waste-Management |
         
        Based on Front-End - Web Designing Event Project  
@@ -20,13 +15,14 @@
          Step 2 : Install a Code Editor (VS-CODE | Recommended)
 
          Step 3 : Open a Source code on VS Code
-         Some Use Full VS Code Extensions(LiveServer | HTML CSS Support)
+                  Some Use Full VS Code Extensions(LiveServer | HTML CSS Support)
 
          Step 4 : Open a Live Server _>
 
          Final  : We Can See a Output in Your Browser
 
-         (note : This Link Provide a Better Exprience in System View, In the Future Update we can ' Update to Mobile Responsive ' )
+         (note : This Link Provide a Better Exprience in System View,
+         In the Future Update we can ' Update to Mobile Responsive ' )
 
 
 # Method to Run Project in your PC
